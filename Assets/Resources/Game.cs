@@ -23,7 +23,7 @@ public class Game : MonoBehaviour {
 		
 		GameObject score = Instantiate(Resources.Load("Score")) as GameObject;
 		score.transform.SetParent(GameObject.Find("Canvas").transform);
-		score.transform.position = new Vector3(750.0f, 700.0f, 0.0f);
+		score.transform.position = new Vector3(1000.0f, 700.0f, 0.0f);
 		
 		GameObject menu = Instantiate(Resources.Load("Menu")) as GameObject;
 		menu.transform.SetParent(GameObject.Find("Canvas").transform);
